@@ -33,16 +33,19 @@ const Banner = () => {
             <div className="container">
                 <div className="row">
                     <div className="side-image left">
-                    <Img fluid={data.gig.childImageSharp.fluid} />
+                    <Img fluid={data.cat.childImageSharp.fluid} />
                     </div>
                     <div className="main-text">Sophie Scott-Maunder</div>
                     <div className="main-image">
-                        <Img fluid={data.cat.childImageSharp.fluid} />
+                        <Img fluid={data.gig.childImageSharp.fluid} />
                     </div>
                     <div className="side-image right">
                         <Img fluid={data.hongKong.childImageSharp.fluid} />
 
                     </div>
+                </div>
+                <div className="scroll">
+                    <span>Scroll down</span>
                 </div>
             </div>
         </div>
