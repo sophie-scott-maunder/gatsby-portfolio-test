@@ -18,6 +18,7 @@ body {
     width: 1640px;
     min-width: 1640px;
     margin: 0 auto;
+
     @media(max-width: 1440px) {
         width: 1280px;
     min-width: 1280px;
@@ -101,6 +102,8 @@ header {
         .main-image {
             width: 536px;
             margin: 0 auto;
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
             @media (max-width: 1440px) {
                 width: 436px;
             }
@@ -108,6 +111,8 @@ header {
         .side-image {
             width: 260px;
             position: absolute;
+            -webkit-filter: grayscale(100%); 
+            filter: grayscale(100%);
             @media (max-width: 1440px) {
                 width: 208px;
             }
