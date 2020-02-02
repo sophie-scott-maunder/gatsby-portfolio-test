@@ -12,11 +12,13 @@ html,
 body {
     font-family: $font;
     font-size: 16px;
+    padding: 0;
+    margin: 0;
 }
 
 .container {
-    width: 1640px;
-    min-width: 1640px;
+    width: 1500px;
+    min-width: 320px;
     margin: 0 auto;
 
     @media(max-width: 1440px) {
@@ -108,6 +110,12 @@ header {
                 width: 436px;
             }
         }
+        .main-image:hover {
+            -webkit-filter: none;
+            -moz-filter: none;
+            -ms-filter: none;
+            filter: none;
+         }
         .side-image {
             width: 260px;
             position: absolute;
